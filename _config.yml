@@ -1,0 +1,10 @@
+# Server setting
+host: 0.0.0.0
+
+# Site settings
+title: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+exclude: ["bower.json", "package.json", "bower_components", "node_modules", "README.md","gulpfile.js"]
+
+# Build settings
+markdown: redcarpet

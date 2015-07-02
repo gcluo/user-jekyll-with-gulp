@@ -1,0 +1,9 @@
+Encoding.default_external = 'utf-8'
+http_path = "/"
+sass_dir = "./"
+css_dir = "../app/css"
+images_dir = "../app/img"
+javascripts_dir = "../app/js"
+relative_assets = true
+# output_style = :styled
+output_style = :compressed

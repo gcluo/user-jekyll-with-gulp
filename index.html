@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<ul class="table-view">
+  {% for post in site.posts %}
+  <li class="table-view-cell">
+    <a class="navigate-right" href="{{ post.url | prepend: site.baseurl }}">
+      {{ post.title }}
+      <span class="post-meta">{{ post.date | date: "%F %T" }}</span>
+      </a>
+  </li>
+  {% endfor %}
+</ul>

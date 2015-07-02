@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="content">
+      {{ content }}
+    </div>
+    <script src="js/main.js"></script>
+    {% if page.jsfile %}<script src="js/{{page.jsfile}}.js"></script>{% endif %}
+  </body>
+</html>
